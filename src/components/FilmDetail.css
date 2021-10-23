@@ -1,0 +1,36 @@
+.film-info{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#film-detail{
+    background-color: lightblue;
+    flex: 0 0 25%;
+    padding-left: 10px;
+}
+
+#film-description{
+    background-color: lightblue;
+    flex: 0 0 40%;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+button{
+    background: plum;
+    color:#fff;
+    border: #fff;
+    border-radius: 12px;
+    height:50px;
+    font-size:1.2em;
+    padding:0 1em;
+    cursor:pointer;
+    transition:800ms ease all;
+  }
+
+  button:hover{
+    background:#fff;
+    color:plum;
+  }
+  

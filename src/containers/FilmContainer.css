@@ -1,0 +1,24 @@
+.main-container {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline-flex;
+    cursor: pointer;
+    padding: 12px;
+}
+
+li:hover{
+    opacity: .5;
+}
+
+
+#watch-list {
+    background: plum;
+    padding: 5px;
+}
+
+#watch-list > ul > li {
+    list-style-type: none;
+}
